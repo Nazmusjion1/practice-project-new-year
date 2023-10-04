@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url(../images/banner/banner2.png);
+
+    height: 809px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1-primary {
+    position: absolute;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    width: 525px;
+    height: 228px;
+    top: 216px;
+    left: 845px;
+
+}
+
+.p-primary {
+    font-size: 18px;
+    width: 494px;
+    height: 78px;
+    top: 468px;
+    left: 850px;
+    position: absolute;
+    padding-top: 24px;
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    width: 160px;
+    ;
+    height: 64px;
+    top: 578px;
+    left: 850px;
+    border-radius: 5px;
+    position: absolute;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* main-section start */
+.main-section {
+    margin: 50px;
+    gap: 130px;
+
+}
+
+
+.main-title {
+    font-size: 40px;
+    font-weight: 700px;
+    position: absolute;
+    width: 288px;
+    height: 94px;
+    top: 1178px;
+    left: 862px;
+
+    margin-bottom: 10px;
+
+}
+
+.main-description {
+    position: absolute;
+    width: 416px;
+    height: 104px;
+    top: 1296px;
+    left: 862px;
+}
+
+.list {
+    position: absolute;
+
+    top: 1400px;
+    left: 860px;
+
+
+}
+
+.li-1 {
+    padding-bottom: 8px;
+}
+
+.main-section img {
+    margin: 150px;
+
+}
+
+/* plan styles start */
+.my-plan {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.plan-section {
+    text-align: center;
+    font-size: 40px;
+    font-size: 700;
+
+}
+
+.plan-container {
+    display: flex;
+    margin-left: 130px;
+    justify-content: space-around;
+    padding-top: 130px;
+
+
+
+}
+
+.plan-title {
+    font-size: 40px;
+    font-size: 800;
+    text-align: center;
+    padding-top: 30px;
+
+
+
+}
+
+.plan-description {
+
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+
+    text-align: center;
+
+}
+
+/* image section start */
+.img-section {
+    margin-top: 190px;
+    padding-left: 230px;
+
+}
+
+.img-setup {
+    position: absolute;
+    left: 250px;
+    width: 1140px;
+    
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/gradient2.png');
+
+}
+.img-title {
+    position: absolute;
+    width: 450px;
+   padding-top: 50px;
+    left: 294px;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+}
+.btn-2nd {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    margin-top: 230px;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
