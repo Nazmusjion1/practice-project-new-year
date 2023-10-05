@@ -142,6 +142,11 @@
 .img-section {
     margin-top: 190px;
     padding-left: 230px;
+    align-items: center;
+    text-align: center;
+
+
+
 
 }
 
@@ -149,20 +154,22 @@
     position: absolute;
     left: 250px;
     width: 1140px;
-    
+
     border-radius: 8px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/gradient2.png');
 
 }
+
 .img-title {
     position: absolute;
     width: 450px;
-   padding-top: 50px;
+    padding-top: 50px;
     left: 294px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 40px;
 }
+
 .btn-2nd {
     position: absolute;
     width: 160px;
@@ -174,5 +181,112 @@
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
+
+}
+
+/* footer section start */
+
+.background {
+    position: absolute;
+    background: #151414;
+    width: 2000px;
+    height: 400px;
+    top: 3052px;
+    margin-right: 0px;
+    background-size: cover;
+}
+
+.future-title {
+
+    top: 3100.3px;
+    left: 230px;
+    color: aliceblue;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.future-description {
+    width: 485px;
+    height: 78px;
+    top: 3150.3px;
+    left: 230px;
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 16px;
+
+}
+
+.info-1 {
+    position: absolute;
+    width: 186px;
+    height: 26px;
+    top: 3250.3px;
+    left: 230px;
+    padding-bottom: 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+.info-2 {
+    position: absolute;
+    width: 186px;
+    height: 26px;
+    top: 3270.3px;
+    left: 230px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.images {
+    position: absolute;
+    width: 175px;
+    height: 46px;
+    top: 3350.3px;
+    left: 230px;
+
+
+}
+
+.footer-sub-title {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    left: 1046px;
+    top: 3100px;
+    color: #FFFFFF;
+}
+
+.form {
+    position: absolute;
+      width: 100%;
+    left: 1046px;
+    top: 3200.08px;
+    border-radius: 5px;
+   
+
+
+}
+input{
+    height: 50px;
+    text-align: center;
+    background-color: Dark ;
+    border: 1px solid;
+    border-radius: 8px;
+   
+}
+.btn-3rd{
+    position: absolute;
+    width: 100.11px;
+height: 40px;
+top: 3260.3px;
+left: 1046px;
+border-radius: 8px;
+color: #F15B22;
+font-size: 20;
+font-weight: 600;
 
 }
